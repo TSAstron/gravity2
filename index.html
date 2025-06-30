@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gravity 2</title>
+  <meta charset="utf-8">
+  <style>
+    body { background: black; margin-top: 5px; padding: 0px; display: flex; flex-direction: column; align-items: center;}
+    canvas { border: 1px solid gray; }
+    #instruct {position: absolute; top: 0px; left: 0px; color: #dddddd}
+  </style>
+</head>
+<body>
+<canvas id="obraz" width="1024" height="640"></canvas>
+<div>
+  <p style="color:white">N = <span id="dispN"></span></p>
+  <p style="color:white">fps = <span id="dispFPS"></span></p>
+</div>
+<div id="instruct">
+  <p> Click to start/pause.</p>
+  <p> Use arrows to rotate. </p>
+</div>
+
+<script src="gravity2.js"></script>
+</body>
+</head>
+</html>
